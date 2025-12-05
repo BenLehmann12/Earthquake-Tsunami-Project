@@ -19,7 +19,7 @@ CREATE TABLE earthquake_data (
     INDEX idx_year_month (year, month)
 );
 
-
+-- Ran the Code, then removed my file path
 LOAD DATA INFILE ""
 INTO TABLE earthquake_data
 FIELDS TERMINATED BY ','
